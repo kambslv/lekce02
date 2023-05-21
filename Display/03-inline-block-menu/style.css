@@ -12,6 +12,8 @@ h1, h2, h3 {
     color: #b92e81;
 }
 
+
+
 /*
  BARVY
  czechitas  #b92e81
@@ -25,3 +27,28 @@ h1, h2, h3 {
  tmavsi     #95a5a6
  tmava      #34495e
 */
+
+.menu li {
+    display: inline-block;
+}
+
+.menu {
+    padding:0;
+    text-align: center;
+    background: red;
+}
+
+.menu a {
+    text-decoration: none ;
+    color: black;
+    background-color: gray;
+    display: inline-block;
+    padding: 50px;
+
+}
+
+.menu a:hover {
+    background-color: deeppink;
+    border-radius: 20%;
+}
+

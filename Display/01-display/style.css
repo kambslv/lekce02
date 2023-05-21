@@ -26,6 +26,9 @@ h1, h2, h3 {
  tmava      #34495e
 */
 
+a {
+    display: block;
+}
 
 .sedy    { background-color: #e5e5e5; }
 .zluty   { background-color: #ffffd0; }
@@ -44,6 +47,7 @@ h1, h2, h3 {
     margin: 1px 0;
     color: white;
     border: 1px solid black;
+    display: inline-block;
 }
 
 .prvni {
@@ -52,10 +56,10 @@ h1, h2, h3 {
 
 .druhy {
     background-color: #f1c40f;
+    opacity: 20%;
 }
 
 .treti {
     background-color: #e74c3c;
 }
-
 
